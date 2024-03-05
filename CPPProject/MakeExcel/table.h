@@ -1,3 +1,12 @@
+#pragma once
+#include <string>
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+class Cell;
+class 
+
 class Table {
 protected:
 	// 행 및 열의 최대 크기

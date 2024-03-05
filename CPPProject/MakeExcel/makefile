@@ -10,7 +10,7 @@ CFLAGS = -Wall -g
 TARGET = my_program
 
 # 소스 파일 및 객체 파일 설정
-SRCS = main.cpp
+SRCS = main.cpp txtTable.cpp utils.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 # 빌드 대상 및 의존성 설정
@@ -24,3 +24,4 @@ $(TARGET): $(OBJS)
 # 정리 작업
 clean:
 	rm -f $(OBJS) $(TARGET)
+

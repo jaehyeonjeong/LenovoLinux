@@ -1,8 +1,8 @@
 #include <iostream>
 #include "txtTable.h"
-#include "table.h"
 #include "utils.h"
 #include "cell.h"
+#include "table.h"
 
 int main() {
 	MyExcel::TxtTable table(5, 5);

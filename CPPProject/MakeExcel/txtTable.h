@@ -1,4 +1,9 @@
+#ifndef  TXT_TABLE_H
+#define  TXT_TABLE_H
+
+#include "table.h"
 #include <string>
+using std::string;
 
 class TxtTable : public Table {
 	string repeat_char(int n, char c);
@@ -12,3 +17,5 @@ public:
 	// 텍스트로 표를 깨끗하게 출력한다.
 	string print_table();
 };
+
+#endif
